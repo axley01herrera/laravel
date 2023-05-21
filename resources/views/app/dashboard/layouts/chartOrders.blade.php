@@ -1,0 +1,19 @@
+@if (session('accessAPI') == 1)
+
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h6 class="font-size-xs text-uppercase">Api Calls</h6>
+                    <h4 id="lbl-totalOrders" class="mt-4 font-weight-bold mb-2 d-flex align-items-center"></h4>
+                    <div class="text-muted">Orders By Month</div>
+                </div>
+            </div>
+            <div class="apex-charts mt-3" id="chart-order"></div>
+        </div>
+    </div>
+
+
+@endif
+
+
